@@ -5,12 +5,12 @@ function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <header className="fixed top-0 left-0 w-full flex justify-between items-center px-5 sm:px-10 py-3 bg-secondary z-50 shadow-md">
-      {/* Logo */}
+  
       <a className="font-bold text-lg sm:text-xl text-[#F4EBD0]" href="#">
         Praveenkumar
       </a>
 
-      {/* Desktop Navigation */}
+      
       <nav className="hidden md:block">
         <ul className="flex space-x-6 text-[#F4EBD0]">
           <li>
@@ -46,7 +46,6 @@ function Header() {
         </ul>
       </nav>
 
-      {/* Mobile Navigation */}
       {toggleMenu && (
         <nav className="absolute top-[60px] left-0 w-full bg-secondary shadow-md md:hidden">
           <ul
@@ -87,7 +86,7 @@ function Header() {
         </nav>
       )}
 
-      {/* Mobile Menu Button */}
+   
       <button
         onClick={() => setToggleMenu(!toggleMenu)}
         className="block md:hidden text-[#F4EBD0]"

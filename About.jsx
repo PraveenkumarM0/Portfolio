@@ -1,5 +1,4 @@
 import About from '../Portfolio/assets/about.png';
-import { useEffect } from 'react';
 
 export default function () {
   return (
@@ -19,7 +18,7 @@ export default function () {
       >
         <div className="flex flex-col justify-center text-white max-w-2xl">
           <h1 
-            className="text-3xl text-white border-b-4 pt-10 border-[#D9A566] mb-8 w-fit mx-auto md:mx-0 font-bold shrikhand-regular" 
+            className="text-3xl text-white border-b-4 pt-10 border-[#D9A566] mb-8 w-fit mx-auto md:mx-0 font-rubikvinyl" 
             data-aos="fade-up-delay-1000" 
             data-aos-duration="3000"
           >

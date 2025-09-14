@@ -9,7 +9,7 @@ export default function Hero() {
         >
             <div className="md:w-1/2 flex flex-col pt-12 text-center md:text-left px-4"> 
                 <h1
-                    className="text-[#F4EBD0] text-6xl font-hero-font" 
+                    className="text-[#F4EBD0] text-6xl font-storyscript" 
                     data-aos="fade-up"
                     data-aos-duration="2000" 
                     data-aos-easing="ease-in-out"

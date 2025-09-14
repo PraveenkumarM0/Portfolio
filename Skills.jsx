@@ -18,7 +18,7 @@ function Skills() {
     >
       <div className="text-center">
         <h1
-          className="text-4xl text-white font-bold shrikhand-relative hover:scale-105 transition-transform duration-300"
+          className="text-4xl text-white font-rubikvinyl hover:scale-105 transition-transform duration-300"
           data-aos="fade-up"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
@@ -28,7 +28,7 @@ function Skills() {
   
       </div>
 
-      {/* Grid container with glowing effects */}
+
       <div
         className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 sm:gap-12 md:gap-16 w-full max-w-screen-lg mx-auto mt-16"
         data-aos="fade-up"
@@ -50,7 +50,7 @@ function Skills() {
             key={index}
             className="flex flex-col items-center justify-center p-6 bg-[#1E1E1E] rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 group relative"
           >
-            {/* Glowing effect */}
+          
             <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-[#D9A566] to-[#F4EBD0] opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
             <img
               src={skill.src}
